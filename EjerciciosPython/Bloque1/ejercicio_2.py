@@ -1,5 +1,8 @@
-base = int(input("Escribe la base del rectángulo: "))
-altura = int(input("Escribe la altura del rectángulo: "))
-print("El perímetro del rectangulo es = ",2*base + 2*altura, "y su area es igual a",base*altura)
+base = float(input("Escribe la base del rectángulo: "))
+altura = float(input("Escribe la altura del rectángulo: "))
+
+perimetro = 2*base + 2*altura
+area = base*altura
+print(f'El perímetro del rectángulo es {perimetro} y su área es igual a {area}')
 
 
