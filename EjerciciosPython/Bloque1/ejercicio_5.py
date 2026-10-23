@@ -1,4 +1,4 @@
-gradosF = float(input("Temperatura en grados Fahrenheit: "))
-gradosC = (gradosF - 32) * 5 / 9
+grados_f = float(input("Temperatura en grados Fahrenheit: "))
+grados_c = (grados_f - 32) * 5 / 9
 
-print(f'Una temperatura de {gradosF} fahrenheit es equivalente a {gradosC} grados celsius')
+print(f'Una temperatura de {grados_f:.2f} Fahrenheit es equivalente a {grados_c:.2f} Celsius')
